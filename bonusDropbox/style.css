@@ -29,6 +29,12 @@ ul{
     width: 70%;
 }
 
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
 /* main  */
 main{
     section{
@@ -41,4 +47,80 @@ main{
 }
 .jumbo-img{
     max-width: 100%;
+}
+
+
+
+/***************** responsive  *******************/
+
+@media screen and (min-width:768px){
+    .jumbotron{
+        .container-md{
+            text-align: start !important;
+        }
+        .row{
+            flex-direction: row-reverse;
+        }
+
+    }
+    #plans{
+        .container-md{
+            text-align: start !important;
+        }
+
+    }
+        #partners{
+            .container-md{
+                text-align: start !important;
+            }
+        }
+}
+
+
+
+
+/* tablet  */
+@media screen and (min-width:992px){
+    .jumbotron{
+        .container-md{
+            text-align: start !important;
+            width: 75%;
+        }
+        .row{
+            flex-direction: row-reverse;
+            img{
+                position: absolute;
+            }
+        }
+    }
+
+    #partners{
+        .container-md{
+            width: 75%;
+        }
+    }
+
+    #operation{
+        .container-md{
+            text-align: start !important;
+            width: 75%;
+        }
+    }
+
+    #trusted-by{
+        .container-md{
+            width: 75%;
+        }
+
+    }
+
+    #footer{
+        .container-md{
+            width: 75%;
+            [class^="col"]{
+                margin: 0 auto;
+            }
+        }
+    }
+
 }
