@@ -28,6 +28,13 @@ ul{
 .w-70{
     width: 70%;
 }
+
+/* main  */
+main{
+    section{
+        margin-bottom: 8rem;
+    }
+}
 /* jumbotron  */
 .jumbotron{
     background-color: var(--drop-hero-bg);
