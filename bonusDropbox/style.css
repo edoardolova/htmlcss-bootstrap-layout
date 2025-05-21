@@ -8,13 +8,22 @@ body{
   font-variation-settings:
     "wdth" 100;
 }
-
+:root{
+    --drop-hero-bg: #B4D0E6;
+}
 /* utilities  */
 
 .fs-small-custom{
     font-size: 0.8rem;
 }
+
+.w-70{
+    width: 70%;
+}
 /* jumbotron  */
+.jumbotron{
+    background-color: var(--drop-hero-bg);
+}
 .jumbo-img{
     max-width: 100%;
 }
