@@ -9,4 +9,12 @@ body{
     "wdth" 100;
 }
 
+/* utilities  */
 
+.fs-small-custom{
+    font-size: 0.8rem;
+}
+/* jumbotron  */
+.jumbo-img{
+    max-width: 100%;
+}
